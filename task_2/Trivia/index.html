@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link
+		rel="stylesheet"
+		href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+	<title>Trivia Quiz</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://use.fontawesome.com/9e320b8850.js"></script>
+</head>
+<body>
+<div class="app"></div>
+<div class="jumbotron">
+	<div class="container">
+		<div class="brand">
+			QUIZ GAME
+		</div>
+	</div>
+</div>
+<div class="container main">
+	<div class="activity-monitoring">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="correct-answers">
+					Correct Answers: <span id="correctAnswers">0</span>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="total-questions">
+					Total Questions: <span id="totalQuestions">0</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="question-header">
+		<h1 class="question-title">Question: <span id="questionTitle"></span></h1>
+		<h3 class="question-category" >Category: <span id="questionCategory"></span> </h3>
+		<ul class="question-description" id= "questionText">
+			
+		</ul>
+		<hr>
+		<button class="btn btn-default btn-lg" id = "btn"><i class="fa fa-paw" aria-hidden="true"></i>
+		 	Skip
+		</button>
+	</div>
+	<!-- section for answer -->
+	<div class="answer-section">
+		<div class="answer-container">
+			<ul class="inline-list characters-container" id = "answerReceive">
+				<li class="inline-block">
+					
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- answer propose -->
+	<div class="answers-for-drag">
+		<div class="answer-container">
+			<ul class="inline-list proposition-characters-container" id = "answerGet">
+
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
