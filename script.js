@@ -81,7 +81,7 @@ function check() {
     }
 };
 
-xmlhttp.open('GET', 'http://jservice.io/api/random', true);
+xmlhttp.open('GET', 'https://jservice.io/api/random', true);
 xmlhttp.send();
 
 }
