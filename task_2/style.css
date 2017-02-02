@@ -6,28 +6,11 @@ body {
     background-position: center; 
 }
 
-
-ul {
-	padding: 0 0;
-	margin: 0 0;
-}
-
-.inline-list {
-
-}
-
-.inline-block {
-	display: inline;
-}
-/* HEADER */
-
-
 .jumbotron {
 	padding: 0;
 	margin-bottom: 0;
 	background-color: #129a10;
-    border-radius: 0.3rem;
-  
+    border-radius: 0.3rem;  
 }
 
 .brand {
@@ -36,21 +19,13 @@ ul {
 	padding: 1rem;
 }
 
-/* MAIN */
-.main {
-
-}
-/* Answers Monitoring Section */
-.activity-monitoring {
-	padding: 0rem;
-}
-.correct-answers {
+.errorMessage {
+	margin-top: 1;
 }
 .total-questions {
 	text-align: right;
 }
 
-/* Question Header Section */
 .question-header {
 	text-align: center;
 }
@@ -66,7 +41,7 @@ ul {
 	font-size: 0.9rem;
 	max-width: 676px;
 	background-color: #F6F5F7;
-	padding: 1.5rem 1.4rem;
+	padding: 2rem 1.4rem;
 }
 
 hr {
@@ -93,31 +68,33 @@ hr {
 	border-radius: 2px;
 }
 
-.characters-container {
-	padding: 3rem 0;
-}
 
-.character {
-	background-color: white;
-	border-radius: 2px;
-	border: 1px solid rgba(128, 128, 128, 0.43);
-	padding: 0.3rem 0.8rem;
-	box-shadow: 1px 1px 3px 0 #ccc;
-	font-weight: 600;
-	color: rgba(51, 46, 46, 0.58);
-	cursor: pointer;
+.characters-container {
+	padding: 2rem 0;
+	background-color: #F6F5F7;
+	margin-top: 0rem;
 }
 
 .character:hover {
 	color: rgba(0, 0, 0, 0.58)
 }
 
-
 /* Answer proposition */
 .answers-for-drag {
-	margin: 3rem 0;
+	max-width: 676px;
+	margin: 2rem auto 0;
+	text-align: center;
+	border: 1px solid rgba(128, 128, 128, 0.18);
+	border-radius: 2px;
 }
 
 .proposition-characters-container {
 	padding: 1.5rem 0;
 }
+
+
+
+
+  
+
+
