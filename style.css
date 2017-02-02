@@ -18,10 +18,23 @@ body {
 	font-weight: 700;
 	padding: 1rem;
 }
+.successMessage {
+	color: #1a1aff;
 
-.errorMessage {
-	margin-top: 1;
-}
+ }
+
+ .errorMessage {
+ 	
+  	color: #e62e00;
+
+   }
+
+ p {
+ 	font-size: 25px;
+ 	margin-top: 1.5%;
+ 	margin-bottom: 1.5%;
+ }  
+
 .total-questions {
 	text-align: right;
 }
@@ -60,12 +73,12 @@ hr {
 	}
 }
 /* Answers proposition section */
-.answer-container {
+.resultLetters {
 	max-width: 676px;
-	margin: 2rem auto 0;
+	margin: 1rem auto 0;
 	text-align: center;
 	border: 1px solid rgba(128, 128, 128, 0.18);
-	border-radius: 2px;
+	border-radius: 1px;
 }
 
 
@@ -80,17 +93,45 @@ hr {
 }
 
 /* Answer proposition */
-.answers-for-drag {
+.lettersFromServer {
 	max-width: 676px;
-	margin: 2rem auto 0;
+	margin: 1rem auto 0;
 	text-align: center;
 	border: 1px solid rgba(128, 128, 128, 0.18);
-	border-radius: 2px;
+	border-radius: 1px;
 }
 
 .proposition-characters-container {
 	padding: 1.5rem 0;
 }
+
+#letters button, #result-letters button {
+	background-color: #129a10;
+ 	width: 100%;
+    height: 36px;
+    border: 1px solid #808080;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    font-weight: 700;
+    width: 36px;
+    margin: 20px 5px; }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
