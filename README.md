@@ -18,4 +18,8 @@
 - [x] [Try Ruby](https://github.com/West0ne/kottans_web_test/blob/master/task_3/try_ruby.png)
 - [x] [Dynamic web application with Sinatra](https://github.com/West0ne/kottans_web_test/blob/master/task_3/sinatra.png)
 - [x] [Programming Foundations with Python](https://github.com/West0ne/kottans_web_test/blob/master/task_3/python.png)
-- [x] Programming Foundations with Python [1](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%201.png), [2](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%202.png), [3](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%203.png)
+- [x] Intro to Computer Science [1](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%201.png), [2](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%202.png), [3](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%203.png)
+
+## Task 4
+- [x] [Deploying applications with heroku](https://github.com/West0ne/kottans_web_test/blob/master/task_4/heroku.png)
+- [x] [Intro to devops](https://github.com/West0ne/kottans_web_test/blob/master/task_4/Intro%20to%20devops.png)
