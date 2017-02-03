@@ -13,3 +13,9 @@
 ## Task 2
 - [x] [Freecodecamp account link] (https://www.freecodecamp.com/west0ne)
 - [x] [Trivia demo](https://west0ne.github.io/kottans_web_test/), [files](https://github.com/West0ne/kottans_web_test/tree/gh-pages)
+
+## Task 3
+- [x] [Try Ruby](https://github.com/West0ne/kottans_web_test/blob/master/task_3/try_ruby.png)
+- [x] [Dynamic web application with Sinatra](https://github.com/West0ne/kottans_web_test/blob/master/task_3/sinatra.png)
+- [x] [Programming Foundations with Python](https://github.com/West0ne/kottans_web_test/blob/master/task_3/python.png)
+- [x] Programming Foundations with Python [1](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%201.png), [2](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%202.png), [3](https://github.com/West0ne/kottans_web_test/blob/master/task_3/intro%203.png)
