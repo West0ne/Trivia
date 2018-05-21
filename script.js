@@ -16,17 +16,13 @@ var allAnswerCounter = 0;
 
 getData();
 
-function randomaizer () {
-	return (Math.random() - 0.5);
-}
-
 function getData() {
 //get data from server
 const xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         let myObj = JSON.parse(this.responseText);
-        let answerGet = myObj[0].answer.split('').sort(randomaizer());
+        let answerGet = myObj[0].answer.split('').sort(() => 0.5 - Math.random());
 
 		question.innerHTML = myObj[0].question;
 		questionId.innerHTML = myObj[0].id;
